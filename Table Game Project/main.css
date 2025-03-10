@@ -1,0 +1,23 @@
+th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+}
+tr.medium { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+
+}
+tr.small{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+
+}
+
+tr.gray{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    background-color: gray;
+}
+
+/*Haylee Smith
+3/7/25*/
