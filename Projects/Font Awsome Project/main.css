@@ -1,0 +1,53 @@
+table, tr, td, th {
+    border-collapse: collapse;
+    border: 2px solid black;
+    font-family: 'Courier New', Courier, monospace;
+}
+table {
+    background-color: #f4f4f4;
+    height: 1000px;
+    width: 1000px;
+}
+th {
+    background-color: #f4f4f4;
+    width: 30px;
+    height: 30px;
+    text-align: left;
+}
+
+td {
+    background-color: #d0f1de;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.top {
+    writing-mode: vertical-lr;
+    width: 30px;
+    height: 200px;
+    transform: rotate(180deg);
+    align-content: left;
+    font-size: 11pt;
+
+}
+
+.side {
+
+    width: 200px;
+    height: 30px;
+    background-color: #f4f4f4;
+    border-collapse: collapse;
+    border: 2px solid black;
+    text-align: left;
+    padding: 10px;
+    font-size: 11pt;
+
+}
+link {
+    font-size: large;
+}
+i{
+    transform: rotate(180deg);
+    font-size: large;
+}
