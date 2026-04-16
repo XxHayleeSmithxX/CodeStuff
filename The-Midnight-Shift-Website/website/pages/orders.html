@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <style>
+        body{
+            text-align: center;
+        }
+        #orderSummaryContainer {
+            margin-top: 2rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body style="color: white">
+    <nav id="navOne">
+        <div id="logo"><img src="../images/mnsLogo.png" width="260px" height="260px" /></div>
+                <div class="nav-links">
+                    <a href="homePage.html">Home</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="orders.html">Orders</a>
+                    <br />
+                    <i class="fa fa-facebook" style="font-size:36px"></i>
+                    <i class="fa fa-twitter" style="font-size:36px"></i>
+                    <i class="fa fa-instagram" style="font-size:36px"></i>
+                </div>
+    </nav>
+    <h1>Order</h1>
+
+    <div id="orderContainer">
+        <div class="orderItem">
+            <p>Burger: &dollar;12.99</p>
+            <img src="../images/burger.jpg" alt="Burger"/>
+            <p>Quantity: <input id="burgerQuantityValue" type="number" value="0" min="0"/></p>
+        </div>
+        <div class="orderItem">
+            <p>Rockin Combo: &dollar;4.99</p>
+            <img src="../images/rockinCombo.jpg" alt="Rockin Combo"/>
+            <p>Quantity: <input id="rockinComboQuantityValue" type="number" value="0" min="0"/></p>
+        </div>
+        <div class="orderItem">
+            <p>Cheese Burger: &dollar;15.99</p>
+            <img src="../images/cheeseburger.jpg" alt="Cheese Burger"/>
+            <p>Quantity: <input id="cheeseBurgerQuantityValue" type="number" value="0" min="0"/></p>
+        </div>
+        <div class="orderItem">
+            <p>Fried Pickles: &dollar;15.99</p>
+            <img src="../images/friedPickles.jpg" alt="Fried Pickles"/>
+            <p>Quantity: <input id="friedPicklesQuantityValue" type="number" value="0" min="0"/></p>
+        </div>
+        <div class="orderItem">
+            <p>Chicken Fries: &dollar;15.99</p>
+            <img src="../images/chickenFries.jpg" alt="Chicken Fries"/>
+            <p>Quantity: <input id="chickenFriesQuantityValue" type="number" value="0" min="0"/></p>
+        </div>
+        <div class="orderItem">
+            <p>Lil Dawgs: &dollar;15.99</p>
+            <img src="../images/lilDawgs.jpg" alt="Lil Dawgs"/>
+            <p>Quantity: <input id="lilDawgsQuantityValue" type="number" value="0" min="0"/></p>
+        </div>
+        <div class="orderItem">
+            <p>Dr Pepper: &dollar;15.99</p>
+            <img src="../images/drPepper.jpg" alt="Dr Pepper"/>
+            <p>Quantity: <input id="drPepperQuantityValue" type="number" value="0" min="0"/></p>
+        </div>
+        <div class="orderItem">
+            <p>Lemonade: &dollar;15.99</p>
+            <img src="../images/lemonade.jpg" alt="Lemonade"/>
+            <p>Quantity: <input id="lemonadeQuantityValue" type="number" value="0" min="0"/></p>
+        </div>
+        <div class="orderItem">
+            <p>Juice That Makes Your Head Explode: &dollar;15.99</p>
+            <img src="../images/shirleyTemple.jpg" alt="Juice That Makes Your Head Explode"/>
+            <p>Quantity: <input id="juiceThatMakesYourHeadExplodeQuantityValue" type="number" value="0" min="0"/></p>
+        </div>
+        <div class="orderItem">
+            <p>Five Lava Cakes: &dollar;15.99</p>
+            <img src="../images/fiveLavaCakes.jpg" alt="Five Lava Cakes"/>
+            <p>Quantity: <input id="fiveLavaCakesQuantityValue" type="number" value="0" min="0"/></p>
+        </div>
+        <div class="orderItem">
+            <p>Cool Epic Bread Sticks: &dollar;15.99</p>
+            <img src="../images/coolEpicBreadSticks.jpg" alt="Cool Epic Bread Sticks"/>
+            <p>Quantity: <input id="coolEpicBreadSticksQuantityValue" type="number" value="0" min="0"/></p>
+        </div>
+        <div class="orderItem">
+            <p>Packa Punch: &dollar;15.99</p>
+            <img src="../images/packaPunch.jpg" alt="Packa Punch"/>
+            <p>Quantity: <input id="packaPunchQuantityValue" type="number" value="0" min="0"/></p>
+        </div>
+    </div>
+
+    <div id="orderSummaryContainer">
+        <p id="orderDisplay">Your Order: </p>
+
+        <button id="orderButton">Add to Cart:</button>
+    </div>
+
+    <script src="../java/ordersSub.js"></script>
+            <nav id="navTwo">
+                <div id="hours-location">
+                    <p>123 Main Street, Anytown, USA Open Daily: 11am - 11pm</p>
+                    <p>Phone: (555) 123-4567 Email:themidnightshift@gmail.com</p>
+                </div>
+        </nav>
+    </body>
+</html>
