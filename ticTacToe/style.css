@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+#games {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    width: 1000px;
+    height: 110px;
+    margin-top: 25pt;
+    font-family: 'Courier New', monospace;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+}
+
+.tic {
+    font-size: 3em;
+    margin-left: auto;
+    margin-right: auto;
+}
