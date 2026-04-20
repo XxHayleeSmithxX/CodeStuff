@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bad Rock, Paper, Scissors Website</title>
+    <!-- making sure i can remember all of my meta tags for bpa compititions -->
+    <meta charset="UTF-8" />
+    <meta name="description" content="play a game of rock, paper, scissors" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, RockPaperScissors, Game" />
+    <meta name="author" content="HS" />
+    <meta name="veiwport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+
+    <h1> <i class="fa fa-hand-grab-o" style="transform: rotate(90deg);"></i> Rock <i class="fa fa-cloud"></i> :
+        <i class="fa fa-hand-paper-o" style="transform: rotate(90deg);"></i> Paper <i class="fa fa-file"></i> :
+        <i class="fa fa-hand-peace-o" style="transform: rotate(90deg);"></i> Scissors <i class="fa fa-scissors" style="transform: rotate(180deg);"></i></h1>
+
+    <div class="choose">
+        <h2>-YOU-</h2>
+        <button onclick="playGame('rock')"><i class="fa fa-hand-grab-o" style="transform: rotate(90deg);"></i></button>
+        <button onclick="playGame('paper')"><i class="fa fa-hand-paper-o" style="transform: rotate(90deg);"></i></button>
+        <button onclick="playGame('scissors')"><i class="fa fa-hand-peace-o" style="transform: rotate(90deg);"></i></button>
+    </div>
+    <div class="notYou">
+        <h2>-COMPUTER-</h2>
+        <button><i class="fa fa-cloud"></i></button>
+        <button><i class="fa fa-file"></i></button>
+        <button><i class="fa fa-scissors" style="transform: rotate(180deg);"></i></button>
+    </div>
+
+    <div id="playerChoice">YOU:</div>
+    <div id="computerChoice">COMPUTER:</div>
+    <div id="whoWon"></div>
+
+    <div class="score">YOU:
+        <span id="playerScoreDis">0</span>
+    </div>
+        <div class="score">COMPUTER:
+        <span id="computerScoreDis">0</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
