@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title> </title>
+<link rel="stylesheet" href="stylesheet.css">
+<script src="script.js"></script>
+</head>
+<body>
+  <form style="border: 3pt solid black; width: 600px; height: auto;" id="form">
+
+      <div class="container">
+		<div class="box-one">
+			<label for="number"> Input: </label>
+			<input style="border-top: none; border-left: none; border-right: none; border-bottom: 2px solid black; width: auto; margin-left: 10px;"
+				id="input" name="input1" type="number"/>
+
+			<p>Submit: <input style="margin-left: 10px; width: 125px;" type="button" id="submit" name="submit" 
+				onclick="temperatureConverter()"; /> </p>
+
+			<p id="output"> Output:   </p>
+		</div>
+	</div>
+
+      <div class="container">
+		<div class="box-two" style="align-items: center;" >
+	 		<input type="radio" id="fahrenheitA" name="temp1" value="fahrenheitA" checked/>
+	   		<label for="fahrenheit" style="padding: 5px;"> Fahrenheit </label>
+	  		<br> <br>
+
+			<input type="radio" id="celsiusB" name="temp1" value="celsiusB" />
+			<label for="celsius" style="padding: 5px;"> Celsius </label>
+			<br> <br>
+
+			<input type="radio" id="kelvinC" name="temp1" value="kelvenC" />
+			<label for="kelven" style="padding: 5px;"> Kelvin </label>
+			<br>
+		</div>
+
+	<div class="box-two">
+	  <input type="radio" id="fahrenheit1" name="temp2" value="fahrenheit1" />
+	   <label for="ahrenheit" style="padding: 5px;"> Fahrenheit </label>
+	  <br> <br>
+
+	  <input type="radio" id="celsius2" name="temp2" value="celsius2" checked/>
+	   <label for="celsius" style="padding: 5px;"> Celsius </label>
+	  <br> <br>
+
+	  <input type="radio" id="kelvin3" name="temp2" value="kelven3"/>
+	   <label for="kelven" style="padding: 5px;"> Kelvin </label>
+	  <br>
+
+	</div>
+      </div>
+
+  </form>
+</body>
+</html>
