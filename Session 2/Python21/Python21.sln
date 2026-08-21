@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "21a-If", "21a-If\21a-If.pyproj", "{BE21F519-68C8-4130-8EA1-31526856B3B8}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "21b-Elif", "21b-Elif\21b-Elif.pyproj", "{68585C7B-7A1F-41BA-82FD-1EA3B81A5E64}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "21c-Else", "21c-Else\21c-Else.pyproj", "{8774032A-C7AF-49BE-9FC2-57EE3323B3AB}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "21d-Nested", "21d-Nested\21d-Nested.pyproj", "{60F863AA-4B8D-4E4F-8B9B-54FCC293F9E8}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "21d-Compound", "21d-Compound\21d-Compound.pyproj", "{C21CA8B6-F273-4326-80B6-20BF0111287F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE21F519-68C8-4130-8EA1-31526856B3B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE21F519-68C8-4130-8EA1-31526856B3B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68585C7B-7A1F-41BA-82FD-1EA3B81A5E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68585C7B-7A1F-41BA-82FD-1EA3B81A5E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8774032A-C7AF-49BE-9FC2-57EE3323B3AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8774032A-C7AF-49BE-9FC2-57EE3323B3AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F863AA-4B8D-4E4F-8B9B-54FCC293F9E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F863AA-4B8D-4E4F-8B9B-54FCC293F9E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C21CA8B6-F273-4326-80B6-20BF0111287F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C21CA8B6-F273-4326-80B6-20BF0111287F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
